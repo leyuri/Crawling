@@ -18,12 +18,12 @@ req.install_opener(opener)
 
 base = "https://search.naver.com/search.naver?where=image&sm=tab_jum&query="
 
-quote = rep.quote_plus("떡볶이")
+quote = rep.quote_plus("짜증나")
 # quote = rep.quote_plus("고래")
 url = base + quote
 
 res = req.urlopen(url)
-savePath = "/Users/yuri/Documents/crawling/section2/Tteokbokki/"
+savePath = "/Users/yuri/Documents/crawling/Chapter2/짜증나/"
 
 #예외처리
 try:
